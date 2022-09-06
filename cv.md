@@ -13,7 +13,7 @@
 
 My name is Bogdan, I am 14yo. My way in programming started with python, I studied it for about two years without much achievements. My first programms: a calculator, a search for products in different stores, a program showing the dollar and euro exchange rates. On the First of June, 2022, I started studying at rsschool for the profession of frontend developer. Graduated from stage 0 with a certificate and moved to stage 1.
 
-## Scills:
+## Skills:
 
 * **HTML**
 * **CSS**

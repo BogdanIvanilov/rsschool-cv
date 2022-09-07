@@ -55,5 +55,5 @@ function bingo(ticket, win){
 ## Languages:
 
 * **Russian(native)**
-* **English(pre-intermediate)
+* **English(pre-intermediate)**
 * **Ukrainian(basic)**

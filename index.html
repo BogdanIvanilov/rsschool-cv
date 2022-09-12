@@ -1,0 +1,54 @@
+<html lang="en">
+	<head>
+		<title>CV</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Bogdan Ivanilov</h1>
+		<h3>Junior Frontend Developer</h3>
+		<hr>
+		<h2>Contact information:</h2>
+		<ul>
+			<li><b>Discord:</b>BogdanIvanilov#3232</li>
+			<li><b>Telegram:</b>@BogdanIvanilov</li>
+		</ul>
+		<h2>Some information about me</h2>
+		<p>My name is Bogdan, I am 14yo. My way in programming started with python, I studied it for about two years without much achievements. My first programms: a calculator, a search for products in different stores, a program showing the dollar and euro exchange rates. On the First of June, 2022, I started studying at rsschool for the profession of frontend developer.</p>
+		<h2>Skills:</h2>
+		<ul>
+			<li><b>HTML</b></li>
+			<li><b>CSS</b></li>
+			<li><b>JavaScript</b></li>
+			<li><b>Git&amp;GitHub</b></li>
+		</ul>
+		<h2>Courses:</h2>
+		<ul>
+			<li><b>RS Schools Course ""JavaScript/Front-end. Stage 0"</b><a href="https://app.rs.school/certificate/5vfeln8y">Certificate</a></li>
+			<li><b>RS Schools Course "JavaScript/Front-end. Stage 1"(in progress)</b></li>
+		</ul>
+		<h2>Code example</h2>
+		<p>Task: To do this, you must first count the 'mini-wins' on yor ticket. Each subarray has both a string and a number within it. If the character code of any of the characters in the string matches the number, you get a mini win. Note you can only have one mini win per sub array.</p>
+		<p>Once you have counted all of yor mini wins, compare that number to the other input provied (win). If your total is more than or equal to (win), return 'Winner!'. Else return 'Loser!'.</p>
+		<p>URL: https://www.codewars.com/kata/57f625992f4d53c24200070e</p>
+		<pre><code>
+		function bingo(ticket, win){
+			let miniwins = 0;
+			for(let a of ticket){
+				if(a[0].includes(String.fromCharCode(a[1]))){
+					miniwins++;
+				}
+			}
+			if(miniwins &gt;= win){
+				return 'Winner!';
+			}else{
+				return 'Loser!';
+			}
+		}</code></pre>
+		<h2>Languages:</h2>
+		<ul>
+			<li><b>Russian(native)</b></li>
+			<li><b>English(pre-intermediate)</b></li>
+			<li><b>Ukrainian(basic)</b></li>
+		</ul>
+	</body>
+</html>
